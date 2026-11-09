@@ -1,0 +1,60 @@
+{'target': 'ARI', 'location': 'BE', 'n': 224, 'E': 3, 'iter_r': 38, 'iter_py': 38, 'pars_maxrel': 0.0, 'predmean_maxrel': 4.126584004839157e-14, 'predsd_maxrel': 1.2855997331977306e-12}
+{'target': 'ARI', 'location': 'BG', 'n': 224, 'E': 3, 'iter_r': 77, 'iter_py': 77, 'pars_maxrel': 0.0, 'predmean_maxrel': 1.9077862489377533e-14, 'predsd_maxrel': 1.985809205918864e-12}
+{'target': 'ARI', 'location': 'CY', 'n': 144, 'E': 5, 'iter_r': 75, 'iter_py': 75, 'pars_maxrel': 0.0, 'predmean_maxrel': 1.5204501826633684e-14, 'predsd_maxrel': 5.652937696547918e-14}
+{'target': 'ARI', 'location': 'CZ', 'n': 224, 'E': 3, 'iter_r': 46, 'iter_py': 46, 'pars_maxrel': 0.0, 'predmean_maxrel': 1.931176070996022e-14, 'predsd_maxrel': 4.973682668457216e-14}
+{'target': 'ARI', 'location': 'DE', 'n': 224, 'E': 3, 'iter_r': 47, 'iter_py': 47, 'pars_maxrel': 0.0, 'predmean_maxrel': 3.9033062355867325e-14, 'predsd_maxrel': 5.430017652727674e-13}
+{'target': 'ARI', 'location': 'ES', 'n': 224, 'E': 3, 'iter_r': 48, 'iter_py': 48, 'pars_maxrel': 0.0, 'predmean_maxrel': 1.7948527385845332e-14, 'predsd_maxrel': 1.9893394844534742e-12}
+{'target': 'ARI', 'location': 'FI', 'n': 224, 'E': 3, 'iter_r': 46, 'iter_py': 46, 'pars_maxrel': 0.0, 'predmean_maxrel': 2.8119842283593634e-15, 'predsd_maxrel': 1.1963308334637814e-14}
+{'target': 'ARI', 'location': 'HU', 'n': 209, 'E': 3, 'iter_r': 61, 'iter_py': 61, 'pars_maxrel': 0.0, 'predmean_maxrel': 4.6248283206536576e-14, 'predsd_maxrel': 3.381500424809356e-13}
+{'target': 'ARI', 'location': 'IE', 'n': 105, 'E': 3, 'iter_r': 55, 'iter_py': 55, 'pars_maxrel': 0.0, 'predmean_maxrel': 2.7013481375606696e-14, 'predsd_maxrel': 6.94373938594973e-13}
+{'target': 'ARI', 'location': 'IS', 'n': 71, 'E': 4, 'iter_r': 76, 'iter_py': 76, 'pars_maxrel': 0.0, 'predmean_maxrel': 2.555132921291163e-14, 'predsd_maxrel': 1.0796308649618703e-12}
+{'target': 'ARI', 'location': 'LT', 'n': 224, 'E': 4, 'iter_r': 44, 'iter_py': 44, 'pars_maxrel': 0.0, 'predmean_maxrel': 1.0739768506683757e-13, 'predsd_maxrel': 1.0973857105602754e-12}
+{'target': 'ARI', 'location': 'LU', 'n': 224, 'E': 3, 'iter_r': 46, 'iter_py': 46, 'pars_maxrel': 0.0, 'predmean_maxrel': 9.75860298938284e-15, 'predsd_maxrel': 5.630862269954011e-14}
+{'target': 'ARI', 'location': 'LV', 'n': 209, 'E': 3, 'iter_r': 54, 'iter_py': 54, 'pars_maxrel': 0.0, 'predmean_maxrel': 6.28434524399202e-14, 'predsd_maxrel': 3.938252358079496e-13}
+{'target': 'ARI', 'location': 'NL', 'n': 120, 'E': 2, 'iter_r': 72, 'iter_py': 72, 'pars_maxrel': 0.0, 'predmean_maxrel': 1.420895428487127e-14, 'predsd_maxrel': 2.499093018002401e-13}
+{'target': 'ARI', 'location': 'RO', 'n': 224, 'E': 3, 'iter_r': 47, 'iter_py': 47, 'pars_maxrel': 0.0, 'predmean_maxrel': 3.933798120023069e-15, 'predsd_maxrel': 1.8129421128469e-13}
+{'target': 'ARI', 'location': 'SI', 'n': 224, 'E': 3, 'iter_r': 54, 'iter_py': 54, 'pars_maxrel': 0.0, 'predmean_maxrel': 1.3199152252756636e-14, 'predsd_maxrel': 1.7409540231002444e-14}
+{'target': 'ARI', 'location': 'SK', 'n': 224, 'E': 3, 'iter_r': 42, 'iter_py': 42, 'pars_maxrel': 0.0, 'predmean_maxrel': 4.880654141713934e-15, 'predsd_maxrel': 1.8883927244633398e-13}
+{'target': 'ILI', 'location': 'AT', 'n': 209, 'E': 2, 'iter_r': 49, 'iter_py': 49, 'pars_maxrel': 0.0, 'predmean_maxrel': 5.9939490365957564e-15, 'predsd_maxrel': 2.8660160438638095e-14}
+{'target': 'ILI', 'location': 'BE', 'n': 224, 'E': 3, 'iter_r': 59, 'iter_py': 59, 'pars_maxrel': 0.0, 'predmean_maxrel': 6.688876606492183e-14, 'predsd_maxrel': 1.0576135745521156e-12}
+{'target': 'ILI', 'location': 'CZ', 'n': 224, 'E': 3, 'iter_r': 54, 'iter_py': 54, 'pars_maxrel': 0.0, 'predmean_maxrel': 5.73567357890106e-13, 'predsd_maxrel': 1.3514711325068488e-12}
+{'target': 'ILI', 'location': 'DK', 'n': 224, 'E': 4, 'iter_r': 56, 'iter_py': 56, 'pars_maxrel': 0.0, 'predmean_maxrel': 1.8434517397988863e-14, 'predsd_maxrel': 2.5613801092819534e-15}
+{'target': 'ILI', 'location': 'ES', 'n': 157, 'E': 3, 'iter_r': 33, 'iter_py': 33, 'pars_maxrel': 0.0, 'predmean_maxrel': 7.242057731812807e-13, 'predsd_maxrel': 3.359777047296007e-10}
+{'target': 'ILI', 'location': 'FI', 'n': 224, 'E': 8, 'iter_r': 75, 'iter_py': 75, 'pars_maxrel': 0.0, 'predmean_maxrel': 2.314799129017833e-10, 'predsd_maxrel': 1.1084394234137845e-06}
+{'target': 'ILI', 'location': 'GR', 'n': 224, 'E': 3, 'iter_r': 54, 'iter_py': 54, 'pars_maxrel': 0.0, 'predmean_maxrel': 7.055332119735072e-15, 'predsd_maxrel': 3.9727166642393675e-13}
+{'target': 'ILI', 'location': 'HR', 'n': 223, 'E': 4, 'iter_r': 49, 'iter_py': 49, 'pars_maxrel': 0.0, 'predmean_maxrel': 8.307299288342804e-11, 'predsd_maxrel': 3.184386677145397e-08}
+{'target': 'ILI', 'location': 'HU', 'n': 209, 'E': 4, 'iter_r': 189, 'iter_py': 189, 'pars_maxrel': 0.0, 'predmean_maxrel': 3.9143790535332183e-13, 'predsd_maxrel': 1.0103191322405775e-11}
+{'target': 'ILI', 'location': 'IE', 'n': 224, 'E': 4, 'iter_r': 66, 'iter_py': 66, 'pars_maxrel': 0.0, 'predmean_maxrel': 4.123403527144763e-13, 'predsd_maxrel': 5.567249073993799e-11}
+{'target': 'ILI', 'location': 'IS', 'n': 209, 'E': 4, 'iter_r': 62, 'iter_py': 62, 'pars_maxrel': 0.0, 'predmean_maxrel': 5.552147537975494e-13, 'predsd_maxrel': 3.3076136060423314e-12}
+{'target': 'ILI', 'location': 'LT', 'n': 224, 'E': 6, 'iter_r': 52, 'iter_py': 52, 'pars_maxrel': 0.0, 'predmean_maxrel': 4.410349513485296e-11, 'predsd_maxrel': 3.858319271367524e-09}
+{'target': 'ILI', 'location': 'LU', 'n': 224, 'E': 3, 'iter_r': 56, 'iter_py': 56, 'pars_maxrel': 0.0, 'predmean_maxrel': 1.0132426997598389e-13, 'predsd_maxrel': 1.1509914796126454e-13}
+{'target': 'ILI', 'location': 'LV', 'n': 209, 'E': 3, 'iter_r': 53, 'iter_py': 53, 'pars_maxrel': 0.0, 'predmean_maxrel': 1.8347673872858625e-11, 'predsd_maxrel': 4.2509510414216916e-10}
+{'target': 'ILI', 'location': 'MT', 'n': 224, 'E': 4, 'iter_r': 58, 'iter_py': 58, 'pars_maxrel': 0.0, 'predmean_maxrel': 1.502138301600469e-14, 'predsd_maxrel': 2.0489093059028602e-14}
+{'target': 'ILI', 'location': 'NO', 'n': 219, 'E': 3, 'iter_r': 45, 'iter_py': 45, 'pars_maxrel': 0.0, 'predmean_maxrel': 1.2420158176314452e-12, 'predsd_maxrel': 2.15702878629609e-11}
+{'target': 'ILI', 'location': 'RO', 'n': 224, 'E': 8, 'iter_r': 54, 'iter_py': 54, 'pars_maxrel': 0.0, 'predmean_maxrel': 4.733701540776482e-13, 'predsd_maxrel': 8.711375020675572e-12}
+{'target': 'ILI', 'location': 'SI', 'n': 224, 'E': 5, 'iter_r': 59, 'iter_py': 59, 'pars_maxrel': 0.0, 'predmean_maxrel': 4.0816629277654605e-10, 'predsd_maxrel': 4.445257309915684e-09}
+{'target': 'ILI', 'location': 'SK', 'n': 224, 'E': 3, 'iter_r': 76, 'iter_py': 76, 'pars_maxrel': 0.0, 'predmean_maxrel': 1.6651346602113467e-14, 'predsd_maxrel': 1.5945297911920768e-12}
+
+series compared:            36
+lags identical:             36 of 36
+forecast lags identical:    36 of 36
+same number of iterations:  36 of 36
+fits that hit 200 iterations: 0
+max pars_maxrel                0.0  median 0.0
+max ln_post_absdiff            9.274572221329436e-10  median 3.552713678800501e-13
+max insample_predmean_maxrel   4.0399864874375926e-08  median 1.4573880216998006e-13
+max insample_predfsd_maxrel    5.4986999005047033e-05  median 1.3416945325224788e-10
+max insample_predsd_maxrel     1.5605642204552662e-06  median 3.78593946632943e-12
+max predmean_maxrel            4.0816629277654605e-10  median 4.014945120212945e-14
+max predsd_maxrel              1.1084394234137845e-06  median 1.0686222197569928e-12
+max predmean_maxrel_1ulp       3.364477153112849e-10  median 3.351365889558962e-14
+max predsd_maxrel_1ulp         7.987278010592698e-07  median 6.986820071611798e-13
+
+the five series where the forecast sd differs most:
+target location  E       ve   cond_Sigma  predmean_maxrel  predsd_maxrel  predmean_maxrel_1ulp  predsd_maxrel_1ulp
+   ILI       FI  8 0.000265 2.684509e+06     2.314799e-10   1.108439e-06          2.385884e-10        7.987278e-07
+   ILI       HR  4 0.001784 3.086415e+05     8.307299e-11   3.184387e-08          1.742496e-10        2.167961e-08
+   ILI       SI  5 0.004239 1.635527e+05     4.081663e-10   4.445257e-09          2.360149e-10        6.048265e-10
+   ILI       LT  6 0.002025 2.471408e+05     4.410350e-11   3.858319e-09          3.364477e-10        1.288433e-08
+   ILI       LV  3 0.006739 2.792798e+04     1.834767e-11   4.250951e-10          2.391664e-11        2.291277e-10
+fit time, R / Python (s):   18.0 / 8.5

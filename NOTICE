@@ -1,0 +1,16 @@
+gpedm_py.py is a NumPy port of parts of the R package GPEDM, version 0.0.0.9010
+(https://github.com/tanyalrogers/GPEDM, Tanya Rogers and Stephan Munch, NOAA
+Fisheries). gpedm_py_validation/r_reference/ holds excerpts of that package used
+to check the port. GPEDM's LICENSE reads:
+
+  Software code created by U.S. Government employees is not subject to copyright
+  in the United States (17 U.S.C. §105). The United States/Department of Commerce
+  reserve all rights to seek and obtain copyright protection in countries other
+  than the United States for Software authored in its entirety by the Department
+  of Commerce. To this end, the Department of Commerce hereby grants to Recipient
+  a royalty-free, nonexclusive license to use, copy, and create derivative works
+  of the Software outside of the United States.
+
+scoring.py implements the interval score and weighted interval score of
+Bracher, Ray, Gneiting and Reich (2021), "Evaluating epidemic forecasts in an
+interval format", PLOS Computational Biology 17(2): e1008618.

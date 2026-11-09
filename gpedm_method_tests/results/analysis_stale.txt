@@ -1,0 +1,93 @@
+skipped series-dates with a last value 1 to 8 weeks old: 815; forecasts 3260, with an observation later 2534, ranked against at least 3 hub models 2223
+forecasts the weekly run makes now: 9104 scored, 8844 ranked
+
+BY NUMBER OF MISSING WEEKS k (hub horizons 1 to 4 are k+1 to k+4 weeks after the last value)
+                            series_dates  scored  ranked  rank_score  hub_ensemble  hub_baseline  other_models  cover50  cover95
+group                                                                                                                           
+up to date (submitted now)          2399    9104    8844       0.807         0.797         0.680        11.345    0.478    0.886
+k = 1                                444    1555    1445       0.763         0.762         0.575         7.718    0.417    0.828
+k = 2                                149     454     418       0.747         0.709         0.561         5.945    0.414    0.802
+k = 3                                 70     185     162       0.742         0.756         0.375         5.556    0.524    0.892
+k = 4                                 42     118     100       0.727         0.732         0.320         4.620    0.492    0.839
+k = 5                                 37      85      35       0.806         0.802         0.178         4.743    0.435    0.871
+k = 6                                 20      38      26       0.781         0.797         0.140         5.077    0.553    0.947
+k = 7                                 29      60      21       0.834         0.767         0.199         5.095    0.617    0.933
+k = 8                                 24      39      16       0.878         0.672         0.204         3.000    0.513    0.949
+k = 1 to 8                           815    2534    2223       0.759         0.750         0.528         6.951    0.437    0.836
+
+BY HUB HORIZON, k = 1 to 8
+   series_dates  scored  ranked  rank_score  hub_ensemble  hub_baseline  other_models  cover50  cover95
+1         815.0   650.0   576.0       0.749         0.739         0.526         6.964    0.445    0.855
+2         815.0   637.0   557.0       0.751         0.756         0.524         6.950    0.433    0.846
+3         815.0   636.0   557.0       0.761         0.761         0.533         6.964    0.431    0.821
+4         815.0   611.0   533.0       0.777         0.745         0.531         6.927    0.439    0.820
+
+MEAN RANK SCORE OF THE MODEL IF THESE FORECASTS ARE ALSO SUBMITTED
+                                  forecasts  rank_score  change      lo      hi
+include                                                                        
+only up to date                        8844      0.8072  0.0000     NaN     NaN
++ last value up to 1 week(s) old      10289      0.8010 -0.0062 -0.0102 -0.0021
++ last value up to 2 week(s) old      10707      0.7989 -0.0083 -0.0131 -0.0033
++ last value up to 3 week(s) old      10869      0.7980 -0.0092 -0.0148 -0.0035
++ last value up to 4 week(s) old      10969      0.7974 -0.0098 -0.0158 -0.0038
++ last value up to 8 week(s) old      11067      0.7976 -0.0096 -0.0162 -0.0030
+
+BY SERIES (at least 12 ranked forecasts from an old last value)
+                        stale_ranked  stale_rank_score  mean_k  hub_ensemble  up_to_date_ranked  up_to_date_rank_score   diff
+target        location                                                                                                       
+ILI incidence HR                 152             0.887   2.072         0.866              163.0                  0.859  0.029
+              RO                 148             0.837   2.149         0.798              136.0                  0.778  0.060
+ARI incidence RO                 144             0.794   2.069         0.708              136.0                  0.818 -0.024
+              LV                 123             0.811   1.431         0.782               88.0                  0.879 -0.068
+ILI incidence LV                 123             0.840   1.431         0.863               88.0                  0.925 -0.085
+              FI                 120             0.612   1.633         0.805              140.0                  0.693 -0.081
+ARI incidence FI                 120             0.632   1.633         0.677              140.0                  0.731 -0.099
+              CY                 108             0.753   1.444         0.543              143.0                  0.709  0.044
+ILI incidence IS                  95             0.776   1.316         0.745              219.0                  0.703  0.074
+              CZ                  67             0.847   1.537         0.786              230.0                  0.827  0.020
+ARI incidence CZ                  67             0.819   1.537         0.764              230.0                  0.823 -0.004
+ILI incidence GB-WLS              65             0.698   2.677         0.683                NaN                    NaN    NaN
+ARI incidence FR                  60             0.571   1.533         0.604              138.0                  0.756 -0.185
+ILI incidence FR                  60             0.722   1.533         0.777              138.0                  0.811 -0.089
+              CH                  59             0.767   1.847         0.790                NaN                    NaN    NaN
+ARI incidence GB-WLS              54             0.621   2.352         0.634                NaN                    NaN    NaN
+ILI incidence IT                  44             0.895   3.636         0.904               24.0                  0.762  0.134
+              DK                  44             0.483   3.455         0.702              226.0                  0.809 -0.325
+              GB-NIR              42             0.863   1.286         0.814                NaN                    NaN    NaN
+ARI incidence GB-NIR              40             0.670   1.300         0.709                NaN                    NaN    NaN
+ILI incidence AT                  37             0.794   1.649         0.844              130.0                  0.817 -0.023
+              EE                  36             0.740   1.222         0.689              272.0                  0.785 -0.045
+ARI incidence LT                  36             0.795   1.000         0.703              290.0                  0.875 -0.080
+ILI incidence LT                  36             0.619   1.000         0.775              290.0                  0.793 -0.173
+ARI incidence EE                  35             0.760   1.200         0.614              272.0                  0.768 -0.008
+ILI incidence NO                  28             0.762   1.286         0.712              271.0                  0.767 -0.005
+              BE                  24             0.742   1.000         0.615              302.0                  0.819 -0.077
+ARI incidence HU                  23             0.887   1.174         0.912              211.0                  0.869  0.018
+ILI incidence HU                  23             0.870   1.174         0.847              211.0                  0.828  0.042
+ARI incidence BE                  20             0.940   1.000         0.656              250.0                  0.830  0.110
+ILI incidence IE                  20             0.843   1.200         0.736              306.0                  0.871 -0.028
+ARI incidence ES                  18             0.493   1.222         0.795              308.0                  0.718 -0.225
+ILI incidence MT                  18             0.679   1.444         0.775              308.0                  0.753 -0.074
+              GB-ENG              15             0.708   2.000         0.725                NaN                    NaN    NaN
+ARI incidence GB-ENG              14             0.582   1.929         0.678                NaN                    NaN    NaN
+ILI incidence ES                  14             0.924   1.286         0.752              184.0                  0.862  0.062
+
+series seen both ways: 41; weighted by their old-value forecasts, rank score 0.766 from an old last value against 0.800 when up to date
+series never up to date in the replay (never forecast now): 9, 303 ranked forecasts, rank score 0.718: ['ARI GB-ENG', 'ARI GB-NIR', 'ARI GB-SCT', 'ARI GB-WLS', 'ILI CH', 'ILI GB-ENG', 'ILI GB-NIR', 'ILI GB-SCT', 'ILI GB-WLS']
+up to date: median WIS ratio to the hub ensemble 0.94, to the hub baseline 0.68 (n = 8840)
+old last value: median WIS ratio to the hub ensemble 0.89, to the hub baseline 0.58 (n = 2219)
+
+THE WEEKLY RUN FROM ROUND 2026-10-21: SERIES CHOSEN BY THEIR LATEST DATE, UP TO ONE WEEK BEHIND
+                                                                   series_dates  scored  ranked  rank_score  hub_ensemble  hub_baseline  other_models  cover50  cover95
+group                                                                                                                                                                  
+newest week in the first row (submitted up to 2026-10-14)                  2399    9104    8844       0.807         0.797         0.680        11.345    0.478    0.886
+newest week present, rows oldest first (skipped up to 2026-10-14)           169     406     283       0.752         0.724         0.601         8.986    0.305    0.739
+one week behind (k = 1)                                                     444    1555    1445       0.763         0.762         0.575         7.718    0.417    0.828
+series with rows oldest first: ['ARI GB-ENG', 'ARI GB-NIR', 'ARI GB-SCT', 'ARI GB-WLS', 'ILI CH', 'ILI GB-ENG', 'ILI GB-NIR', 'ILI GB-SCT', 'ILI GB-WLS']
+
+MEAN RANK SCORE OF THE MODEL
+                                                         forecasts  rank_score  change      lo      hi
+include                                                                                               
+submitted up to 2026-10-14                                    8844      0.8072  0.0000     NaN     NaN
++ rows oldest first                                           9127      0.8055 -0.0017 -0.0037  0.0002
++ rows oldest first + one week behind (from 2026-10-21)      10572      0.7997 -0.0075 -0.0113 -0.0030

@@ -1,0 +1,122 @@
+REAL GAPS: 2051 series-dates of the weekly run's selection with a missing week, 178 with one in the initial state
+variable-step status on those: {'ok': 680, 'tdiff_unseen': 32}
+
+HYBRID (variable step where the initial state has a gap) AGAINST THE ADOPTED MODEL
+                                                                       series_dates  ranked  dates  standard    hyb   diff     lo     hi  rel_wis  cover50_standard  cover50_hyb  cover95_standard  cover95_hyb    vtf  cover50_vtf  cover95_vtf
+group                                                                                                                                                                                                                                           
+initial state has a gap: all                                                    178     425     48     0.781  0.777 -0.005 -0.018  0.025    1.048             0.417        0.419             0.846        0.870    NaN          NaN          NaN
+  regular                                                                        82     252     25     0.777  0.765 -0.012 -0.034  0.019    1.052             0.425        0.446             0.843        0.868    NaN          NaN          NaN
+  order                                                                          42      65     14     0.821  0.796 -0.025 -0.042  0.004    1.019             0.343        0.306             0.815        0.833    NaN          NaN          NaN
+  one_behind                                                                     54     108     21     0.766  0.791  0.025 -0.012  0.053    1.039             0.457        0.450             0.874        0.901    NaN          NaN          NaN
+  after a break of 8+ weeks                                                      40      64      5     0.830  0.804 -0.026 -0.080  0.028    1.214             0.561        0.623             0.965        0.982    NaN          NaN          NaN
+  gap of 1-7 weeks                                                              138     361     48     0.772  0.772 -0.001 -0.017  0.025    1.029             0.379        0.365             0.814        0.840    NaN          NaN          NaN
+  horizon 1                                                                     178     108     46     0.772  0.759 -0.014 -0.024  0.031    1.019             0.449        0.426             0.860        0.868    NaN          NaN          NaN
+  horizon 2                                                                     178     105     43     0.785  0.764 -0.022 -0.037  0.006    1.051             0.361        0.368             0.850        0.872    NaN          NaN          NaN
+  horizon 3                                                                     178     105     44     0.766  0.776  0.010 -0.013  0.046    1.032             0.433        0.448             0.843        0.896    NaN          NaN          NaN
+  horizon 4                                                                     178     107     45     0.801  0.808  0.007 -0.016  0.045    1.053             0.426        0.434             0.831        0.846    NaN          NaN          NaN
+gap only further back: variable step instead (not used by the hybrid)          1873    6653     86     0.800    NaN -0.002 -0.003  0.000    1.020             0.459          NaN             0.866          NaN  0.798        0.456        0.866
+every series with a gap: variable step instead                                 2051    7078     86     0.799    NaN -0.002 -0.004  0.001    1.020             0.456          NaN             0.864          NaN  0.797        0.453        0.866
+
+BY SERIES, forecasts whose initial state has a gap
+                        series_dates  ranked  init_run  standard  hybrid   diff
+target        location                                                         
+ARI incidence EE                  10      40       1.0     0.773   0.774  0.000
+ILI incidence HR                  10      40       1.0     0.844   0.849  0.005
+              EE                  10      40       1.0     0.789   0.775 -0.013
+              GB-NIR              13      32       1.0     0.915   0.897 -0.018
+              FI                   8      32       1.0     0.467   0.538  0.071
+ARI incidence GB-NIR              11      28       1.0     0.737   0.706 -0.031
+              HU                   7      28       2.0     0.830   0.806 -0.025
+ILI incidence RO                   6      24       2.0     0.745   0.683 -0.062
+              CH                   9      21       1.0     0.795   0.808  0.013
+ARI incidence FI                   5      20       1.0     0.810   0.907  0.097
+ILI incidence LV                   5      20      19.0     0.852   0.896  0.044
+              HU                   4      16      10.5     0.847   0.838 -0.009
+              IS                   4      16       1.0     0.896   0.885 -0.011
+              AT                   3      12      25.0     0.706   0.611 -0.095
+ARI incidence LV                   3      12      19.0     0.883   0.919  0.036
+ILI incidence MT                   3      12       2.0     0.643   0.577 -0.066
+ARI incidence GB-WLS               3       8       1.0     0.532   0.524 -0.008
+ILI incidence GB-WLS               3       8       1.0     0.820   0.698 -0.122
+              BE                   1       4       1.0     0.865   0.865  0.000
+ARI incidence RO                   1       4       2.0     0.725   0.622 -0.103
+              BE                   1       4       1.0     1.000   1.000  0.000
+ILI incidence GB-ENG               1       2       2.0     1.000   0.965 -0.035
+ARI incidence GB-ENG               1       2       2.0     0.983   0.983  0.000
+
+check: the adopted model here and in the earlier rounds, 7479 forecasts, max |WIS difference| 2.14e-08
+
+MEAN RANK SCORE OF THE WEEKLY RUN SELECTION
+                                              ranked  adopted     alt    diff      lo      hi
+selection                        alternative                                                 
+regular                          hybrid         8844   0.8072  0.8069 -0.0003 -0.0009  0.0005
+                                 vt_any_gap     8844   0.8072  0.8062 -0.0010 -0.0021  0.0008
+order                            hybrid          283   0.7521  0.7463 -0.0058 -0.0101  0.0010
+                                 vt_any_gap      283   0.7521  0.7423 -0.0098 -0.0195  0.0018
+one_behind                       hybrid         1445   0.7631  0.7650  0.0018 -0.0006  0.0046
+                                 vt_any_gap     1445   0.7631  0.7624 -0.0007 -0.0059  0.0041
+all (weekly run from 2026-10-21) hybrid        10572   0.7997  0.7995 -0.0002 -0.0007  0.0008
+                                 vt_any_gap    10572   0.7997  0.7985 -0.0012 -0.0023  0.0006
+
+FAKE GAPS: 822 series-dates without a missing week, 17 series, 85 origin dates
+forecasts not made (horizon rows), by level, arm and model:
+model         standard    vt
+level arm                   
+0     forced         0  9864
+0.02  forced         0   347
+      random         0    16
+0.05  forced         0    19
+      random         0     4
+0.1   forced         0     8
+      random         0     0
+0.2   forced        16    17
+      random        15    16
+0.3   forced       202   215
+      random       183   196
+one   forced         0   301
+      random         0   112
+
+RANK SCORE BY FAKE GAP LEVEL (share of weeks removed at random; "one" = one week), same forecasts in a row
+              ranked  weeks_missing  init_gappy  vt_fallback  no_gaps  standard  hybrid  vt_everywhere  hyb-std  hyb-std_lo  hyb-std_hi  std-nogap  std-nogap_lo  std-nogap_hi  hyb-nogap
+arm    level                                                                                                                                                                             
+random one      9156          1.000       0.010        1.000    0.809     0.810   0.810          0.810    0.000       0.000       0.000      0.001         0.000         0.002      0.001
+       0.02     9156          4.213       0.053        0.023    0.809     0.810   0.809          0.809   -0.000      -0.001       0.000      0.001        -0.000         0.002      0.000
+       0.05     9156         10.661       0.137        0.003    0.809     0.810   0.809          0.807   -0.001      -0.003      -0.000      0.001        -0.002         0.003     -0.000
+       0.1      9156         21.279       0.219        0.000    0.809     0.807   0.806          0.804   -0.001      -0.002       0.001     -0.002        -0.005         0.002     -0.003
+       0.2      9141         42.857       0.429        0.000    0.809     0.802   0.797          0.793   -0.005      -0.008      -0.003     -0.007        -0.011        -0.002     -0.012
+       0.3      8989         64.971       0.559        0.002    0.808     0.792   0.786          0.785   -0.005      -0.008      -0.002     -0.016        -0.022        -0.010     -0.022
+forced 0        9156          1.000       1.000        1.000    0.809     0.808   0.808          0.808    0.000       0.000       0.000     -0.001        -0.004         0.002     -0.001
+       one      9156          1.996       1.000        0.029    0.809     0.810   0.793          0.793   -0.017      -0.023      -0.010      0.001        -0.002         0.004     -0.016
+       0.02     9156          5.193       1.000        0.035    0.809     0.809   0.797          0.797   -0.012      -0.016      -0.007     -0.000        -0.003         0.003     -0.012
+       0.05     9156         11.601       1.000        0.002    0.809     0.809   0.799          0.799   -0.010      -0.014      -0.004     -0.000        -0.003         0.002     -0.010
+       0.1      9156         22.194       1.000        0.001    0.809     0.806   0.798          0.798   -0.008      -0.012      -0.004     -0.003        -0.007         0.002     -0.011
+       0.2      9140         43.647       1.000        0.000    0.809     0.801   0.787          0.787   -0.014      -0.018      -0.011     -0.008        -0.013        -0.002     -0.022
+       0.3      8972         65.764       1.000        0.001    0.808     0.789   0.780          0.780   -0.010      -0.015      -0.005     -0.018        -0.025        -0.011     -0.028
+
+... the forecasts whose initial state has a gap, variable step against interpolation; variable step everywhere against interpolation; interval coverage
+              init_ranked  init_std  init_vt  init_vt-std  init_lo  init_hi  vt-std  vt-std_lo  vt-std_hi  cover50_std  cover50_hyb  cover95_std  cover95_hyb
+arm    level                                                                                                                                                 
+random one             95     0.840    0.840        0.000    0.000    0.000   0.000     -0.001      0.001        0.493        0.493        0.905        0.905
+       0.02           484     0.813    0.804       -0.009   -0.022    0.004  -0.001     -0.002      0.001        0.493        0.494        0.906        0.907
+       0.05          1253     0.814    0.804       -0.010   -0.020   -0.002  -0.003     -0.005     -0.001        0.491        0.494        0.908        0.909
+       0.1           2002     0.822    0.817       -0.005   -0.011    0.005  -0.003     -0.005     -0.001        0.488        0.491        0.905        0.907
+       0.2           3922     0.811    0.799       -0.012   -0.018   -0.008  -0.009     -0.012     -0.006        0.489        0.488        0.903        0.905
+       0.3           5029     0.795    0.786       -0.010   -0.015   -0.004  -0.007     -0.010     -0.003        0.486        0.484        0.898        0.895
+forced 0             9156     0.808    0.808        0.000    0.000    0.000   0.000      0.000      0.000        0.490        0.490        0.902        0.902
+       one           9156     0.810    0.793       -0.017   -0.023   -0.010  -0.017     -0.023     -0.010        0.489        0.535        0.906        0.930
+       0.02          9156     0.809    0.797       -0.012   -0.016   -0.007  -0.012     -0.016     -0.007        0.489        0.525        0.906        0.921
+       0.05          9156     0.809    0.799       -0.010   -0.014   -0.004  -0.010     -0.014     -0.004        0.489        0.519        0.908        0.921
+       0.1           9156     0.806    0.798       -0.008   -0.012   -0.004  -0.008     -0.012     -0.004        0.484        0.504        0.904        0.910
+       0.2           9140     0.801    0.787       -0.014   -0.018   -0.011  -0.014     -0.018     -0.011        0.484        0.485        0.900        0.902
+       0.3           8972     0.789    0.780       -0.010   -0.015   -0.005  -0.010     -0.015     -0.005        0.488        0.484        0.897        0.894
+
+FORCED ARM, ALL LEVELS: BY THE MOST RECENT MISSING WEEK OF THE INITIAL STATE (lag 1 = the week before the newest)
+             ranked  no_gaps  standard     vt  std-nogap  vt-std  vt-std_lo  vt-std_hi
+missing_lag                                                                           
+1             32741    0.803     0.797  0.787     -0.007  -0.010     -0.013     -0.006
+2             24467    0.804     0.801  0.790     -0.003  -0.010     -0.014     -0.006
+3              3018    0.835     0.842  0.832      0.007  -0.010     -0.018     -0.005
+4              1568    0.865     0.867  0.859      0.002  -0.008     -0.013     -0.001
+5              1042    0.873     0.879  0.860      0.006  -0.018     -0.027     -0.007
+6               664    0.868     0.871  0.868      0.003  -0.004     -0.009      0.003
+7               392    0.873     0.874  0.860      0.001  -0.014     -0.026     -0.004

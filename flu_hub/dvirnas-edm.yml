@@ -1,0 +1,29 @@
+model_id: dvirnas-edm
+team_name: Integrated Science Lab (IceLab), Umeå University
+team_abbr: dvirnas
+model_name: Empirical dynamic modelling with Gaussian processes
+model_abbr: edm
+model_version: 2.0.0
+model_contributors:
+  - name: Albertas Dvirnas
+    affiliation: Integrated Science Lab (IceLab), Umeå University
+methods: >-
+  Empirical dynamic modelling. For each location separately, the weekly case
+  series since 2015 is put on the log scale, log(x + c) with c a tenth of the
+  series mean, and the embedding dimension E is chosen by false nearest
+  neighbours. For each forecast step (1-4 weeks past the last observation) a
+  separate Gaussian-process EDM maps the last E weekly values, plus the time of
+  year of the target week, to the change in the log value over those weeks. The
+  point forecast is the mean of the resulting predictive distribution (a
+  shifted log-normal), cut at zero. Version 1.0.0 (round 2026-10-04 only) used
+  the raw counts, without time of year.
+method_category: statistical
+data_sources:
+  - Swedish Influenza Forecast Hub target data
+software:
+  - Python 3.14
+  - gpedm_py (Python port of the R package GPEDM)
+code_repository: null
+code_license: null
+license: CC-BY-4.0
+designated_model: true

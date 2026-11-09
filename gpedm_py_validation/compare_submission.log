@@ -1,0 +1,7 @@
+last run  3456 rows, {'ARI incidence': 17, 'ILI incidence': 19}  (2026-10-14-IceLab-EDM.csv)
+r         3456 rows, {'ARI incidence': 17, 'ILI incidence': 19}  (/pfs/stor10/users/home/a/albertas/git/Respi/gpedm_py_validation/2026-10-14-IceLab-EDM.r.csv)
+python    3456 rows, {'ARI incidence': 17, 'ILI incidence': 19}  (/pfs/stor10/users/home/a/albertas/git/Respi/gpedm_py_validation/2026-10-14-IceLab-EDM.python.csv)
+
+last run vs r: same rows in the same order: True; values identical: True; max abs diff 0; max rel diff 0
+last run vs python: same rows in the same order: True; values identical: False; max abs diff 8.04e-06; max rel diff 9.99e-06
+r vs python: same rows in the same order: True; values identical: False; max abs diff 8.04e-06; max rel diff 9.99e-06

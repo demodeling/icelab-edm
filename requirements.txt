@@ -1,0 +1,8 @@
+numpy
+pandas
+scipy
+scikit-learn
+plotly
+matplotlib
+# optional: rpy2 (and the R package GPEDM) for method="vt" with backend="r" and for gpedm_py_validation/
+# optional: jupyter, nbconvert to run run_final.ipynb

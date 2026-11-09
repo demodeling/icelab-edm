@@ -1,0 +1,422 @@
+{
+ "gr_rank_score": 0.2016023354801473,
+ "gr_n_scored": 18,
+ "gr_times_worst": 10,
+ "gr_n_models": 14,
+ "gr_mean_wis": 174.62098275409852,
+ "gr_by_horizon": [
+  {
+   "horizon": 1,
+   "IceLab-EDM WIS": 54.167566930480895,
+   "median other model WIS": 36.664110629366,
+   "IceLab-EDM rank_score": 0.506662231308337,
+   "n scored": 6,
+   "WIS ratio": 1.4774002696548585
+  },
+  {
+   "horizon": 2,
+   "IceLab-EDM WIS": 260.8664269969796,
+   "median other model WIS": 53.53456144927537,
+   "IceLab-EDM rank_score": 0.04234251488662736,
+   "n scored": 5,
+   "WIS ratio": 4.872860072724302
+  },
+  {
+   "horizon": 3,
+   "IceLab-EDM WIS": 214.5861561772025,
+   "median other model WIS": 59.05200163817231,
+   "IceLab-EDM rank_score": 0.04619357037310025,
+   "n scored": 4,
+   "WIS ratio": 3.6338506777810906
+  },
+  {
+   "horizon": 4,
+   "IceLab-EDM WIS": 218.49850943239335,
+   "median other model WIS": 63.69386532317245,
+   "IceLab-EDM rank_score": 0.06412726495569736,
+   "n scored": 3,
+   "WIS ratio": 3.430448259400917
+  }
+ ],
+ "gr_series_mean": 668.4793721973095,
+ "gr_recent_mean": 279.34999999999997,
+ "gr_median_by_h": {
+  "1": 303.7,
+  "2": 785.3,
+  "3": 675.8,
+  "4": 675.5
+ },
+ "repro_max_abs_diff": 2.6119550966541283e-11,
+ "mechanism": {
+  "origin_date": "2026-09-09",
+  "E": 3,
+  "ntrain": 214,
+  "n_gap2": 1,
+  "gap2_week": "2022-11-20",
+  "gap2_value": 885.1,
+  "phi_gap": 0.028206194064889136,
+  "sd_gap": 0.06819943394704735,
+  "weight": [
+   1.0,
+   0.0023243107768574607,
+   2.918614820333335e-11,
+   1.9799205473427016e-24
+  ],
+  "predmean": [
+   423.12343373844635,
+   811.6468167049867,
+   677.4803079584763,
+   677.1663594509469
+  ],
+  "predsd": [
+   140.2341357601681,
+   481.8920131672284,
+   633.0976269847475,
+   633.0983463143713
+  ],
+  "ymean": 677.1663594470047,
+  "ysd": 402.89442558644254
+ },
+ "nan_experiment": [
+  {
+   "blanked_index": null,
+   "blanked_week": "none",
+   "two_week_change_at_gap_row": null,
+   "phi_gap": 9.805427302e-76,
+   "weight_h2": 0.0,
+   "h1": null,
+   "h2": null,
+   "h3": null,
+   "h4": null,
+   "sd_h4": null
+  },
+  {
+   "blanked_index": 10.0,
+   "blanked_week": "2022-09-04",
+   "two_week_change_at_gap_row": -68.7,
+   "phi_gap": 4.693919444e-53,
+   "weight_h2": 1.0,
+   "h1": 401.9949433591,
+   "h2": 401.9949433591,
+   "h3": 401.9949433591,
+   "h4": 401.9949433591,
+   "sd_h4": 153.2407828479
+  },
+  {
+   "blanked_index": 20.0,
+   "blanked_week": "2022-11-13",
+   "two_week_change_at_gap_row": 330.6,
+   "phi_gap": 0.0282061941,
+   "weight_h2": 0.0023243108,
+   "h1": 423.1234337384,
+   "h2": 811.646816705,
+   "h3": 677.4803079585,
+   "h4": 677.1663594509,
+   "sd_h4": 633.0983463144
+  },
+  {
+   "blanked_index": 30.0,
+   "blanked_week": "2023-01-22",
+   "two_week_change_at_gap_row": -723.4,
+   "phi_gap": 0.0024299981,
+   "weight_h2": 0.5930659971,
+   "h1": 399.5441794351,
+   "h2": 505.792508867,
+   "h3": 635.9057924394,
+   "h4": 670.8797024555,
+   "sd_h4": 651.697137203
+  },
+  {
+   "blanked_index": 50.0,
+   "blanked_week": "2023-06-11",
+   "two_week_change_at_gap_row": -10.7,
+   "phi_gap": 2.407412363e-238,
+   "weight_h2": 1.0,
+   "h1": 403.1596501237,
+   "h2": 403.1596501237,
+   "h3": 403.1596501237,
+   "h4": 403.1596501237,
+   "sd_h4": 153.6189211374
+  },
+  {
+   "blanked_index": 80.0,
+   "blanked_week": "2024-01-07",
+   "two_week_change_at_gap_row": -1021.5,
+   "phi_gap": 0.0026460453,
+   "weight_h2": 0.566148007,
+   "h1": 408.4990663011,
+   "h2": 451.1245683726,
+   "h3": 590.4317973951,
+   "h4": 658.4846742355,
+   "sd_h4": 706.1726062161
+  },
+  {
+   "blanked_index": 110.0,
+   "blanked_week": "2024-08-04",
+   "two_week_change_at_gap_row": -132.4,
+   "phi_gap": 1.248172419e-216,
+   "weight_h2": 1.0,
+   "h1": 404.8067648791,
+   "h2": 404.8067648791,
+   "h3": 404.8067648791,
+   "h4": 404.8067648791,
+   "sd_h4": 153.1183017188
+  },
+  {
+   "blanked_index": 140.0,
+   "blanked_week": "2025-03-02",
+   "two_week_change_at_gap_row": -133.8,
+   "phi_gap": 3.5716e-05,
+   "weight_h2": 0.9923504581,
+   "h1": 426.0326218889,
+   "h2": 427.8752558931,
+   "h3": 433.4375597144,
+   "h4": 442.4681084475,
+   "sd_h4": 271.3422329297
+  },
+  {
+   "blanked_index": 170.0,
+   "blanked_week": "2025-09-28",
+   "two_week_change_at_gap_row": 275.4,
+   "phi_gap": 0.0003082536,
+   "weight_h2": 0.9358739064,
+   "h1": 397.8911150401,
+   "h2": 580.7417651693,
+   "h3": 752.6727223769,
+   "h4": 858.2562361581,
+   "sd_h4": 411.4497952398
+  },
+  {
+   "blanked_index": 200.0,
+   "blanked_week": "2026-04-26",
+   "two_week_change_at_gap_row": -267.7,
+   "phi_gap": 0.0002603466,
+   "weight_h2": 0.9455632258,
+   "h1": 403.9815532206,
+   "h2": 257.481242954,
+   "h3": 169.8621765445,
+   "h4": 164.885149712,
+   "sd_h4": 423.0355179382
+  }
+ ],
+ "behaviour_counts": {
+  "same number for all 4 weeks": 95,
+  "changes with horizon": 70,
+  "collapses to long-run mean from week 2": 7
+ },
+ "n_series_weeks": 172,
+ "scored_window": [
+  {
+   "variant": "A. as submitted",
+   "WIS h1": 54.1675669305,
+   "WIS h2": 260.866426997,
+   "WIS h3": 214.5861561772,
+   "WIS h4": 218.4985094324,
+   "WIS all": 174.6209827541,
+   "rank_score": 0.2016023355,
+   "mean rank": 12.6666666667,
+   "times worst": 10.0,
+   "n": 18
+  },
+  {
+   "variant": "B. keep latest observation",
+   "WIS h1": 33.608087215,
+   "WIS h2": 257.0551522856,
+   "WIS h3": 213.8695708797,
+   "WIS h4": 217.6541952048,
+   "WIS all": 166.409175214,
+   "rank_score": 0.2660386156,
+   "mean rank": 11.5,
+   "times worst": 9.0,
+   "n": 18
+  },
+  {
+   "variant": "C. horizon as an input",
+   "WIS h1": 40.2218162886,
+   "WIS h2": 47.7124112485,
+   "WIS h3": 59.2119837274,
+   "WIS h4": 77.4790637387,
+   "WIS all": 52.7321155611,
+   "rank_score": 0.6610337331,
+   "mean rank": 8.1666666667,
+   "times worst": 0.0,
+   "n": 18
+  },
+  {
+   "variant": "D. one GP per horizon",
+   "WIS h1": 37.187980357,
+   "WIS h2": 50.2679293152,
+   "WIS h3": 65.2420310872,
+   "WIS h4": 80.4888976426,
+   "WIS all": 54.2723525553,
+   "rank_score": 0.6521828889,
+   "mean rank": 8.6666666667,
+   "times worst": 0.0,
+   "n": 18
+  },
+  {
+   "variant": "respicast-hubEnsemble",
+   "WIS h1": 26.2780888399,
+   "WIS h2": 37.1049926139,
+   "WIS h3": 42.5858073477,
+   "WIS h4": 45.1791527641,
+   "WIS all": 36.0596768773,
+   "rank_score": 0.8811663103,
+   "mean rank": null,
+   "times worst": null,
+   "n": 18
+  },
+  {
+   "variant": "respicast-quantileBaseline",
+   "WIS h1": 33.3099855072,
+   "WIS h2": 51.4965184348,
+   "WIS h3": 58.519878587,
+   "WIS h4": 64.181335,
+   "WIS all": 49.109223587,
+   "rank_score": 0.8003374334,
+   "mean rank": null,
+   "times worst": null,
+   "n": 18
+  }
+ ],
+ "replay": [
+  {
+   "variant": "A. as submitted",
+   "WIS h1": 90.6200787705,
+   "WIS h2": 163.3039826513,
+   "WIS h3": 190.2098364306,
+   "WIS h4": 223.0863660208,
+   "WIS all": 165.3519676275,
+   "rank_score": 0.5690697832,
+   "mean rank": 10.4931506849,
+   "models": 17.2328767123,
+   "times worst": 25.0,
+   "n": 146
+  },
+  {
+   "variant": "B. keep latest observation",
+   "WIS h1": 64.7326836882,
+   "WIS h2": 137.9753521905,
+   "WIS h3": 163.5719726073,
+   "WIS h4": 193.3344049574,
+   "WIS all": 138.4946931409,
+   "rank_score": 0.6390792153,
+   "mean rank": 9.5547945205,
+   "models": 17.2328767123,
+   "times worst": 13.0,
+   "n": 146
+  },
+  {
+   "variant": "D. one GP per horizon",
+   "WIS h1": 65.4408282381,
+   "WIS h2": 97.0932650428,
+   "WIS h3": 130.3271785645,
+   "WIS h4": 148.7937526789,
+   "WIS all": 109.4435756967,
+   "rank_score": 0.7138963764,
+   "mean rank": 9.4315068493,
+   "models": 17.2328767123,
+   "times worst": 3.0,
+   "n": 146
+  },
+  {
+   "variant": "respicast-hubEnsemble",
+   "WIS h1": 46.5464985551,
+   "WIS h2": 70.506212057,
+   "WIS h3": 98.1506912264,
+   "WIS h4": 118.4548487275,
+   "WIS all": 82.5811053481,
+   "rank_score": null,
+   "mean rank": null,
+   "models": null,
+   "times worst": null,
+   "n": 146
+  },
+  {
+   "variant": "respicast-quantileBaseline",
+   "WIS h1": 58.0093441419,
+   "WIS h2": 93.5852090306,
+   "WIS h3": 129.9094423913,
+   "WIS h4": 158.5186066832,
+   "WIS all": 108.8486230926,
+   "rank_score": null,
+   "mean rank": null,
+   "models": null,
+   "times worst": null,
+   "n": 146
+  }
+ ],
+ "replay_n_origins": 39,
+ "replay_collapsed": 8,
+ "replay_flat": 0,
+ "collapse_first_origin": "2026-08-12",
+ "collapse_since_first": [
+  8,
+  8
+ ],
+ "series_start_history": [
+  {
+   "series_start": "2021-06-27",
+   "blanked_week": "2021-11-14",
+   "first_origin": "2025-10-01",
+   "last_origin": "2026-05-27",
+   "origin_dates": 31,
+   "weeks": 238.0,
+   "change_across_blank": -80.3,
+   "collapsed": 0
+  },
+  {
+   "series_start": "2022-06-26",
+   "blanked_week": "2022-11-13",
+   "first_origin": "2026-08-12",
+   "last_origin": "2026-10-07",
+   "origin_dates": 8,
+   "weeks": 218.5,
+   "change_across_blank": 330.6,
+   "collapsed": 8
+  }
+ ],
+ "may_crosscheck": {
+  "weight_prod": 0.9971790969486222,
+  "weight_moved": 0.014798368525806585,
+  "fc_prod": [
+   424.4795991499301,
+   393.2765369172589,
+   363.3615294489384,
+   335.2382437865221
+  ],
+  "fc_moved": [
+   427.1506238864365,
+   831.20678960323,
+   238.7377640251803,
+   608.9537785069747
+  ]
+ },
+ "all_series": [
+  {
+   "index": "A. as submitted",
+   "rank score, week 1": 0.5128757197,
+   "rank score, weeks 2 to 4": 0.5613617979,
+   "rank score, all": 0.5450800531,
+   "median WIS ratio to A": 1.0,
+   "share of forecasts better than A": 0.0
+  },
+  {
+   "index": "B. keep latest observation",
+   "rank score, week 1": 0.6076740821,
+   "rank score, weeks 2 to 4": 0.5985503593,
+   "rank score, all": 0.6016141279,
+   "median WIS ratio to A": 0.9539642477,
+   "share of forecasts better than A": 0.7037037037
+  },
+  {
+   "index": "D. one GP per horizon",
+   "rank score, week 1": 0.5985804451,
+   "rank score, weeks 2 to 4": 0.6076213578,
+   "rank score, all": 0.604585397,
+   "median WIS ratio to A": 0.9073467706,
+   "share of forecasts better than A": 0.5827160494
+  }
+ ],
+ "all_series_n": 405
+}

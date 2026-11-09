@@ -1,0 +1,7 @@
+[Unit]
+Description=Weekly RespiCast forecast on HPC2N, copy back, progress-doc update
+
+[Service]
+Type=oneshot
+ExecStart=%h/git/Respi/weekly/respicast_weekly.sh
+TimeoutStartSec=4h

@@ -1,0 +1,10 @@
+[Unit]
+Description=Hourly check, Saturday to Wednesday, for the weekly RespiCast run
+
+[Timer]
+OnCalendar=Sat,Sun,Mon,Tue,Wed *-*-* 07..22:17:00
+Persistent=true
+Unit=respicast-weekly.service
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,9 @@
+[Unit]
+Description=Start the weekly RespiCast run when the HPC2N SSH socket appears in ~/.ssh/cm
+
+[Path]
+PathChanged=%h/.ssh/cm
+Unit=respicast-weekly.service
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,111 @@
+makelags
+ok   fixed step, 2 pops, E=3 tau=1                              max rel diff 0.00e+00
+ok   fixed step, 2 variables, E=2 tau=2                         max rel diff 0.00e+00
+ok   fixed step, forecast, 2 pops, E=2 tau=2                    max rel diff 0.00e+00
+ok   fixed step, forecast, 1 pop, no time                       max rel diff 0.00e+00
+ok   vtimestep, 2 pops, E=3 tau=1                               max rel diff 0.00e+00
+R[write to console]: Using tau>1 with vtimestep method is not recommended
+
+ok   vtimestep, 2 variables, E=2 tau=2, Tdiff_max=4             max rel diff 0.00e+00
+ok   vtimestep, forecast, Tdiff_fore=1:3                        max rel diff 0.00e+00
+ok   vtimestep, forecast, default Tdiff_fore                    max rel diff 0.00e+00
+ok   vtimestep, 1 pop, no time column                           max rel diff 0.00e+00
+
+fitGP: 2 pops, global scaling, rho estimated
+     iterations: R 50, Python 50; pars (Python): phi1=0.3991 phi2=0 phi3=0.2239 phi4=4.598e-249 ve=0.01016 sigma2=3.122 rho=0.9853
+ok   parameters                                                 max rel diff 0.00e+00
+ok   fit statistics                                             max rel diff 6.89e-14
+ok   in-sample results                                          max rel diff 2.63e-09
+ok   predict loo, exclradius=0                                  max rel diff 2.84e-09
+ok   predict loo, exclradius=1                                  max rel diff 2.58e-09
+ok   predict lto, exclradius=0                                  max rel diff 2.84e-09
+ok   predict lto, exclradius=1                                  max rel diff 2.75e-09
+ok   predict sequential, exclradius=0                           max rel diff 7.27e-16
+ok   predict newdata = training frame                           max rel diff 3.22e-09
+ok      its R2 and rmse                                         max rel diff 5.01e-15
+ok   predict newdata = forecast rows                            max rel diff 1.13e-09
+
+fitGP: 2 pops, local scaling
+     iterations: R 63, Python 63; pars (Python): phi1=0.7425 phi2=0 phi3=0.1868 phi4=0 ve=0.009084 sigma2=2.672 rho=0.9531
+ok   parameters                                                 max rel diff 0.00e+00
+ok   fit statistics                                             max rel diff 5.28e-14
+ok   in-sample results                                          max rel diff 1.52e-09
+ok   predict loo, exclradius=0                                  max rel diff 2.30e-09
+ok   predict loo, exclradius=1                                  max rel diff 1.96e-09
+ok   predict lto, exclradius=0                                  max rel diff 2.30e-09
+ok   predict lto, exclradius=1                                  max rel diff 1.96e-09
+ok   predict sequential, exclradius=0                           max rel diff 4.25e-13
+ok   predict newdata = training frame                           max rel diff 2.39e-09
+ok      its R2 and rmse                                         max rel diff 1.29e-14
+ok   predict newdata = forecast rows                            max rel diff 1.84e-10
+
+fitGP: 2 pops, no scaling (pre-scaled data)
+     iterations: R 50, Python 50; pars (Python): phi1=0.3991 phi2=0 phi3=0.2239 phi4=4.598e-249 ve=0.01016 sigma2=3.122 rho=0.9853
+ok   parameters                                                 max rel diff 0.00e+00
+ok   fit statistics                                             max rel diff 3.62e-14
+ok   in-sample results                                          max rel diff 2.92e-09
+ok   predict loo, exclradius=0                                  max rel diff 3.21e-09
+ok   predict loo, exclradius=1                                  max rel diff 2.93e-09
+ok   predict lto, exclradius=0                                  max rel diff 2.91e-09
+ok   predict lto, exclradius=1                                  max rel diff 2.45e-09
+ok   predict sequential, exclradius=0                           max rel diff 3.09e-13
+ok   predict newdata = training frame                           max rel diff 2.74e-09
+ok      its R2 and rmse                                         max rel diff 2.23e-14
+
+fitGP: 2 pops, rhofixed=0.3
+     iterations: R 38, Python 38; pars (Python): phi1=0.4338 phi2=3.44e-93 phi3=0.1798 phi4=1.404e-05 ve=0.009682 sigma2=3.024 rho=0.3
+ok   parameters                                                 max rel diff 0.00e+00
+ok   fit statistics                                             max rel diff 3.30e-14
+ok   in-sample results                                          max rel diff 2.80e-09
+ok   predict loo, exclradius=0                                  max rel diff 1.64e-09
+ok   predict loo, exclradius=1                                  max rel diff 1.82e-09
+ok   predict lto, exclradius=0                                  max rel diff 1.64e-09
+ok   predict lto, exclradius=1                                  max rel diff 1.57e-09
+ok   predict sequential, exclradius=0                           max rel diff 2.51e-16
+ok   predict newdata = training frame                           max rel diff 2.40e-09
+ok      its R2 and rmse                                         max rel diff 1.37e-14
+ok   predict newdata = forecast rows                            max rel diff 5.71e-10
+
+fitGP: 2 pops, phi2 and ve fixed
+     iterations: R 42, Python 42; pars (Python): phi1=0.4902 phi2=0.2 phi3=0.3736 phi4=0.0001138 ve=0.01 sigma2=1.898 rho=0.9871
+ok   parameters                                                 max rel diff 0.00e+00
+ok   fit statistics                                             max rel diff 1.84e-14
+ok   in-sample results                                          max rel diff 4.70e-10
+ok   predict loo, exclradius=0                                  max rel diff 3.40e-10
+ok   predict loo, exclradius=1                                  max rel diff 2.91e-10
+ok   predict lto, exclradius=0                                  max rel diff 4.78e-10
+ok   predict lto, exclradius=1                                  max rel diff 2.91e-10
+ok   predict sequential, exclradius=0                           max rel diff 8.66e-14
+ok   predict newdata = training frame                           max rel diff 4.31e-10
+ok      its R2 and rmse                                         max rel diff 8.12e-15
+ok   predict newdata = forecast rows                            max rel diff 1.02e-10
+
+fitGP: 2 pops, modeprior=2, own initpars
+     iterations: R 61, Python 61; pars (Python): phi1=0.407 phi2=0 phi3=0.2375 phi4=0 ve=0.01015 sigma2=3.079 rho=0.9853
+ok   parameters                                                 max rel diff 0.00e+00
+ok   fit statistics                                             max rel diff 5.13e-14
+ok   in-sample results                                          max rel diff 3.66e-09
+ok   predict loo, exclradius=0                                  max rel diff 2.24e-09
+ok   predict loo, exclradius=1                                  max rel diff 2.56e-09
+ok   predict lto, exclradius=0                                  max rel diff 2.42e-09
+ok   predict lto, exclradius=1                                  max rel diff 2.38e-09
+ok   predict sequential, exclradius=0                           max rel diff 6.33e-16
+ok   predict newdata = training frame                           max rel diff 2.65e-09
+ok      its R2 and rmse                                         max rel diff 1.05e-14
+ok   predict newdata = forecast rows                            max rel diff 6.58e-10
+
+fitGP: 1 pop, fixed-step lags
+     iterations: R 42, Python 42; pars (Python): phi1=0.3174 phi2=1.547e-177 phi3=8.956e-282 ve=0.008288 sigma2=3.255 rho=0.5
+ok   parameters                                                 max rel diff 0.00e+00
+ok   fit statistics                                             max rel diff 7.18e-14
+ok   in-sample results                                          max rel diff 2.31e-09
+ok   predict loo, exclradius=0                                  max rel diff 1.69e-09
+ok   predict loo, exclradius=1                                  max rel diff 1.21e-09
+ok   predict lto, exclradius=0                                  max rel diff 1.69e-09
+ok   predict lto, exclradius=1                                  max rel diff 1.21e-09
+ok   predict sequential, exclradius=0                           max rel diff 2.69e-13
+ok   predict newdata = training frame                           max rel diff 1.05e-09
+ok      its R2 and rmse                                         max rel diff 7.08e-14
+ok   predict newdata = forecast rows                            max rel diff 4.30e-10
+
+ALL CASES AGREE

@@ -1,0 +1,25 @@
+target location  E  point phi_checked  phi_ratio_min  phi_ratio_max  ve_ratio  sigma2_ratio
+   ARI       BE  3  start      3 of 6         0.5000            0.5       1.0           1.0
+   ARI       BE  3 fitted      2 of 6         0.5000            0.5       1.0           1.0
+   ARI       BG  3  start      6 of 6         0.4999            0.5       1.0           1.0
+   ARI       BG  3 fitted      2 of 6         0.5000            0.5       1.0           1.0
+   ARI       CY  5  start     5 of 10         0.5000            0.5       1.0           1.0
+   ARI       CY  5 fitted     3 of 10         0.5000            0.5       1.0           1.0
+   ARI       CZ  3  start      5 of 6         0.5000            0.5       1.0           1.0
+   ARI       CZ  3 fitted      4 of 6         0.5000            0.5       1.0           1.0
+   ARI       DE  3  start      3 of 6         0.5000            0.5       1.0           1.0
+   ARI       DE  3 fitted      2 of 6         0.5000            0.5       1.0           1.0
+   ARI       ES  3  start      3 of 6         0.5000            0.5       1.0           1.0
+   ARI       ES  3 fitted      3 of 6         0.5000            0.5       1.0           1.0
+   ILI       AT  2  start      4 of 4         0.5000            0.5       1.0           1.0
+   ILI       AT  2 fitted      1 of 4         0.5000            0.5       1.0           1.0
+   ILI       BE  3  start      3 of 6         0.5000            0.5       1.0           1.0
+   ILI       BE  3 fitted      2 of 6         0.5000            0.5       1.0           1.0
+   ILI       CZ  3  start      5 of 6         0.5000            0.5       1.0           1.0
+   ILI       CZ  3 fitted      3 of 6         0.5000            0.5       1.0           1.0
+   ILI       DK  4  start      4 of 8         0.5000            0.5       1.0           1.0
+   ILI       DK  4 fitted      2 of 8         0.5000            0.5       1.0           1.0
+   ILI       ES  3  start      3 of 6         0.5000            0.5       1.0           1.0
+   ILI       ES  3 fitted      3 of 6         0.5000            0.5       1.0           1.0
+   ILI       FI  8  start    16 of 16         0.5000            0.5       1.0           1.0
+   ILI       FI  8 fitted     6 of 16         0.5000            0.5       1.0           1.0

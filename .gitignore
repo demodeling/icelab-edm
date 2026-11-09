@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.bak*
+weekly/logs/
+weekly/.lock
+hub/
+fc*/
+weekly_trial/
+*.aux
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
+gpedm_py_docs/*.log
